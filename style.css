@@ -1,0 +1,304 @@
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(#bfbfbfc0, black); 
+  scroll-behavior: smooth;
+  font-family: 'Cinzel', serif;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+body{
+  margin: 0;
+}
+
+#fundo{
+  background-image: url("https://images.pexels.com/photos/2087995/pexels-photo-2087995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");  
+  background-size: cover;
+  height: 100vh;/
+}
+header{
+  position: sticky;
+  top: 0;
+  background-color:#303030;
+  height: 100px;
+  z-index: 9;
+}
+nav{
+  justify-content: space-evenly;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+#configuraLogo{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+#logo{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: -7px 5px 8px white;
+  background-color: white;
+}
+#nomeDoEstudio{
+  color: wheat;
+  font-size: 25px;
+  vertical-align: center;
+} 
+
+.flex {
+    display: flex;
+}
+
+nav li{
+  color: wheat;
+  list-style-type: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#tituloDoMeio{
+  color: wheat;
+  text-align: center;
+  text-shadow: -5px 2px 7px white;
+}
+#mensagemPrincipal{
+ font-size: 50px;
+  margin-top: 0;
+ padding-top: 10px;
+}
+
+#mensagemMeio{
+  font-size: 30px;
+  margin-left: 2%;
+  margin-top: 39%;
+}
+
+#botao1{
+  padding: 10px;
+  background-color: #000000;
+  color: wheat;
+  width: 200px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 3px; 
+}
+i{
+  padding: 5px;
+}
+
+#botao1:hover, .botoesGeral:hover, #botao2:hover{
+  cursor: pointer;
+  background-color: wheat;
+  color: black;
+}
+
+#tatuagens, #temas, #studio, #eventos, #projetos, #contatos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tilulosSecundarios{
+  margin-top: 100px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#subTituloStudio{
+  text-align: center; 
+  color: wheat
+}
+
+.pPosTitulo{
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.inputs{
+ width: 430px;
+ height: 30px;
+ opacity: 80%;
+}
+
+.botoesGeral {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #000000;
+  color: wheat;
+  width: 430px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.masterDiv{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  width: 70vw;
+}
+.caixaDaImagem{
+  border: 1px solid #c0c0c0;
+  text-align:center;
+  padding: 15px;
+  box-shadow: 2px 2px 5px #c0c0c0;
+  margin-top: 20px;
+}
+
+.caixaDaImagem:hover{
+  cursor: pointer;
+  border: 3px solid #a40000;
+  box-shadow: 8px 8px 8px #c0c0c0;
+}
+
+.imagensTattoo{
+  width: 200px;
+  height: 230px;
+}
+
+h4{
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.pDetalhes{
+  color: whitesmoke; 
+  text-align: left; 
+  opacity: 50%;
+  margin-left: 17%;
+}
+.caixaDaImagem ul {
+  color: whitesmoke;
+  list-style-type: circle;
+  text-align: left;
+  opacity: 50%;
+}
+
+#StudioLarguraeMargin{
+  width: 80%; 
+  margin-top: 40px;
+}
+
+#botaoDoStudio{
+  margin-left: 8%;
+}
+
+
+.imgStudio{
+  float: left;
+  margin: 0 50px;
+}
+
+.edicaoP{
+  color: whitesmoke;
+  text-align: justify; 
+  opacity: 80%;
+}
+
+#divEventos{
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.corWheat{
+  color: wheat;
+}
+
+#inputEventoText{
+  width: 450px;
+  height: 40px;
+  opacity: 70%;
+  margin-right: 15px;
+}
+
+#inputEventoDate{
+  width: 180px;
+  height: 40px;
+  opacity: 70%;
+  margin-right: 15px;
+}
+
+#botaoEventosDescEDate{
+  width: 100px; 
+  margin-top: 0;
+}
+
+#divDosEventos{
+  margin-top: 20px; 
+  padding: 10px;
+}
+
+.botaoMaior{
+  width: 530px; 
+  height: 50px;
+}
+
+.descricaoEventos{
+  margin-right: 20px;
+  margin-left: 30px;
+  padding: 15px;
+  border-right: 4px solid #9b0000;
+}
+
+table{
+margin: auto;
+width: 65%;
+border-collapse: collapse;
+border: 2px solid white;
+text-align: center;
+font-size: 16px;
+color: whitesmoke;
+}
+
+thead th{
+border: 2px solid white;
+padding: 10px;
+color: wheat;
+}
+
+tbody td{
+border: 2px solid white;
+padding: 10px;
+}
+
+.fundoTbody{
+  background-color: #8b8b8b;
+  color: black;
+}
+
+#divContatos{
+  width: 60%;
+}
+#seta{
+  color: wheat;
+  position: fixed;
+  left: 95%;
+  bottom: 8%;
+  cursor: pointer;
+  border: 2px solid wheat;
+  opacity: 80%;
+
+}
+
+#seta:hover{
+  box-shadow: 3px 3px 5px whitesmoke;
+  width: 28px;
+  height: 28px;
+}
+
+footer{
+  background-color: wheat;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 1px 0; 
+  margin-top: 10%;
+}
